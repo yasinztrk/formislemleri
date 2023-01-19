@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <body>
+        <h1>Üye Kayıt Formu "br" Etiketi Kullanılarak</h1>
+        <form name="kayit" action="kayit.php" method="get">
+        Ad Soyad:<br> 
+        <input type="text" name="adsoyad" id="idadsoyad" size="20" maxlength="30" required>
+        <br>
+        Email:<br> 
+        <input type="email" name="email" id="idemail" required><br>
+        Web Sitesi:<br>
+        <input type="url" name="web" id="web"><br>
+        Yaşınız:<br>
+        <input type="number" name="yas" id="yas" required><br>
+
+        <br>
+        <input type="submit" value="Gönder">
+        <input type="reset" value="İptal">           
+
+        </form>
+        
+        <form name="tablo" action="tablo.php" method="get">
+            <h1>Üye Kayıt Formu Tablo Kullanılarak</h1>
+            <table>
+                <tr><td>Ad Soyad:</td><td><input type="text"></td></tr>
+                <tr><td>Email:</td><td><input type="email" name="email" id="email"></td></tr>
+                <tr><td></td><td><input type="submit" value="Gönder"><input type="reset" value="İptal"></td></tr>
+            </table>
+        </form>
+        
+    </body>
+    </head>
+</html>
